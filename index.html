@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Harbour Tamil | Latest Govt & Private Jobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Job Harbour Tamil <span> Portal</span></a>
+            <nav class="nav-links">
+                <a href="#" class="nav-filter" data-filter="all">Home</a>
+                <a href="#" class="nav-filter" data-filter="govt">Govt Jobs</a>
+                <a href="#" class="nav-filter" data-filter="private">Private Jobs</a>
+                <a href="#" class="nav-filter" data-filter="wfh">Work From Home</a>
+                <button id="theme-toggle" class="btn-outline">🌙 Dark Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="content-area">
+            
+            <section class="search-section card">
+                <h1>Find Your Dream Job Today</h1>
+                <div class="search-bar">
+                    <input type="text" id="search-keyword" placeholder="Job title, keywords, or company...">
+                    <input type="text" id="search-location" placeholder="City, state, or remote...">
+                    <button id="search-btn" class="btn-primary">Search Jobs</button>
+                </div>
+                <div class="category-pills">
+                    <span class="pill" data-keyword="IT">IT Jobs</span>
+                    <span class="pill" data-keyword="Government">Government job</span>
+                    <span class="pill" data-keyword="Internship">Internship</span>
+                    <span class="pill" data-keyword="">Clear Search</span>
+                </div>
+            </section>
+
+            <section id="ljobs" class="job-list">
+                <h2>Latest Jobs</h2>
+                
+                <article class="job-card" data-category="govt">
+                    <div class="job-header">
+                        <div class="company-info">
+                            <div class="logo-placeholder">🏛️</div>
+                            <div>
+                                <h3>SSC CGL Recruitment 2026</h3>
+                                <p class="company-name">Staff Selection Commission</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span>📍 Across India</span>
+                        <span>💰 ₹45,000 - ₹1,42,400</span>
+                        <span>🎓 Any Degree</span>
+                        <span>⏳ Exp: Freshers</span>
+                    </div>
+                    <div class="job-footer">
+                        <span class="deadline">Deadline: 25 July 2026</span>
+                        <button class="btn-primary apply-btn" data-link="jobs/job-template.html">Apply Now</button>
+                    </div>
+                </article>
+
+                <article class="job-card" data-category="private wfh">
+                    <div class="job-header">
+                        <div class="company-info">
+                            <div class="logo-placeholder">💻</div>
+                            <div>
+                                <h3>Software Engineer (Frontend)</h3>
+                                <p class="company-name">Tech Solutions Ltd.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span>📍 Chennai / Remote</span>
+                        <span>💰 ₹6.5 LPA - ₹12 LPA</span>
+                        <span>🎓 B.E/B.Tech/MCA</span>
+                        <span>⏳ Exp: 0-2 Years</span>
+                    </div>
+                    <div class="job-footer">
+                        <span class="deadline">Deadline: ASAP</span>
+                        <button class="btn-primary apply-btn" data-link="jobs/job-template.html">Apply Now</button>
+                    </div>
+                </article>
+
+                <article class="job-card" data-category="private">
+                    <div class="job-header">
+                        <div class="company-info">
+                            <div class="logo-placeholder">🛠️</div>
+                            <div>
+                                <h3>Mechanical</h3>
+                                <p class="company-name">LGB Solutions Ltd.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span>📍 Chennai</span>
+                        <span>💰 ₹1.5 LPA</span>
+                        <span>🎓 B.E</span>
+                        <span>⏳ Exp: 0-2 Years</span>
+                    </div>
+                    <div class="job-footer">
+                        <span class="deadline">Deadline: 30/12/2026</span>
+                        <button class="btn-primary apply-btn" data-link="https://careers.lgbportal.co.in/job_apply/500a04a2-0045-4da7-a703-801ab4092c42">Apply Now</button>
+                    </div>
+                </article>
+
+                <article class="job-card" data-category="govt">
+                    <div class="job-header">
+                        <div class="company-info">
+                            <div class="logo-placeholder">🏛️</div>
+                            <div>
+                                <h3>TNPSC Mechanical Inspector</h3>
+                                <p class="company-name">Tamil Nadu Government</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span>📍 Tamil Nadu</span>
+                        <span>💰 ₹35,000</span>
+                        <span>🎓 B.E</span>
+                        <span>⏳ Exp: 0-2 Years</span>
+                    </div>
+                    <div class="job-footer">
+                        <span class="deadline">Deadline: 30/12/2026</span>
+                        <button class="btn-primary apply-btn" data-link="https://apply.tnpscexams.in/secure?app_id=UElZMDAwMDAwMQ==">Apply Now</button>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <aside class="sidebar">
+            <div class="widget telegram-widget card">
+                <h3>Join Our Community</h3>
+                <button class="btn-telegram">Join Telegram Group</button>
+            </div>
+            <div class="widget ad-widget card">
+                <p class="ad-label">Advertisement</p>
+                <div class="dummy-ad">Google AdSense Space</div>
+            </div>
+        </aside>
+    </main>
+
+    <div id="ad-modal" class="modal-overlay">
+        <div class="modal-content card">
+            <h2>Preparing Your Link...</h2>
+            <p>Please wait <span id="countdown">15</span> seconds before redirecting.</p>
+            <div class="modal-ad-space"><p>Advertisement Space</p></div>
+            <button id="skip-btn" class="btn-outline" disabled>Please Wait...</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
